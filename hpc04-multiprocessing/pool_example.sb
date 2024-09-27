@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --time=01:00:00
+#SBATCH --mem=4GB
+#SBATCH --ntasks=4
+#SBATCH --job-name pool_example_pi_estimation
+
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=dulamatt@msu.edu
+
+module purge
+eval "$(/mnt/ufs18/home-051/dulamatt/miniforge3/bin/conda shell.bash hook)"
+conda activate hpc-python
+cd /mnt/home/dulamatt/cmse-890-601/hpc-python04-multiprocessing-dulamatt/
+python pool_example.py
