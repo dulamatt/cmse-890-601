@@ -1,7 +1,16 @@
 # High Performance Computing (Python)
 
-Contents organized by skillset:
-
-- Characterizing performance: 1, 6
-- Understanding data use and types: 2, 3
-- Effective parallelization: 4, 5, 7
+- **Characterizing performance:**
+    - `hpc01-profiling`
+    - `hpc05-scaling`
+- **Efficient memory use and datatyping:**
+    - `hpc02-memory`
+    - `hpc03-numpy-pandas`
+    - [Von Neumann architecture](https://theartofhpc.com/istc/sequential.html)
+- **Effective parallelization:**
+    - `hpc04-multiprocessing`
+    - `hpc06-locks`
+    - `hpc07-flags`
+    - [Understanding the global interpreter lock](https://realpython.com/python-gil/)
+    - [Python parallel programming documentation](https://wiki.python.org/moin/ParallelProcessing%C2%A0)
+    - [Creating partially-fixed functions](https://www.pythontutorial.net/python-basics/python-partial-functions/)
